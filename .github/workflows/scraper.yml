@@ -12,7 +12,7 @@ jobs:
     
     - name: Install packages
       run: |
-        R -e 'install.packages("stringr")'
+        R -e 'install.packages("tidyverse")'
         R -e 'install.packages("RCurl")'
         R -e 'install.packages("vroom")'
     
