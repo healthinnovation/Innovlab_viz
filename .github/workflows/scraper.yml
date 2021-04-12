@@ -1,8 +1,6 @@
 name: scrapping data
 
-on:
- schedule:
-   - cron: '0 18 * * *' 
+on: [push]
 
 jobs: 
   autoscrape:
